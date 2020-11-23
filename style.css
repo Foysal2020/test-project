@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.float-clear{
+    clear: both;
+    display: block;
+}
+header{
+    width: 1024px;
+    height: auto;
+    margin: auto;
+    background-color: #686de0;
+    background-image: url(https://i.ytimg.com/vi/4l6J5jhRgos/maxresdefault.jpg);
+}
+.art{
+    color: #ffc048;
+}
+.Mainmenu{
+    width: 80%;
+    height: auto;
+    background-color: #00a8ff;
+    float: right;
+    text-align: center;
+}
+.Mainmenu ul{}
+.Mainmenu ul li{
+    display: inline-block;
+    margin-left: -4px;
+}
+.Mainmenu ul li:first-child a{
+    border-left: 1px solid white;
+}
+.Mainmenu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 18px 35px;
+    color: white;
+    border-right: 1px solid white;
+    font-size: 18px;
+
+}
+.Mainmenu ul li:hover > a{
+    background-color: #0984e3;
+    color: #2d3436;
+}
+.Mainmenu ul li{
+    position: relative;
+}
+.Mainmenu ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #00a8ff;
+    border-top: 1px solid white;
+    width: 130px;
+    opacity: 0;
+    visibility: hidden;
+    transform: scaleY(0);
+    transform-origin: top center;
+}
+.Mainmenu ul li ul li{
+    display: block;
+    margin: 0;
+}
+.Mainmenu ul li ul li a{
+    border-bottom: 1px solid white;
+    display: block;
+}
+.Mainmenu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+    transform: scaleY(1);
+}
+.head-Smenu{
+    width: 20%;
+    height: 57px;
+    background-color: #00a8ff;
+    float: left;
+    /* text-align: center; */
+}
+.head-Smenu ul{
+    list-style-type: none;
+}
+.head-Smenu ul li{
+    display: inline-block;
+}
+.head-Smenu ul li a{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.head-Smenu ul li a:hover{
+    color: #2d3436;
+}
+h2{
+    font-size: 30px;
+    color: #fff;
+    font-style: italic;
+    text-transform: uppercase;
+    
+    
+}
+.heading{
+    background-image: url(https://www.mountaindome.co.uk/wp-content/uploads/2016/10/mountain-dome-background.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.heading h2{
+    
+    line-height: 1000%;
+}
+h4{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: -120px;
+    letter-spacing: 5px;
+}
+.adiv{
+    
+}
+.a1{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 8px 18px;
+    border-radius: 15px;
+    position: relative;
+    left: 317px;
+}
+.a2{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #fff;
+    padding: 8px 19px;
+    border-radius: 15px;
+    position: relative;
+    left: 380px;
+}
+.a1:hover{
+    color: black;
+    border-color: black;
+}
+.a2:hover{
+    color: black;
+    border-color: black;
+}
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    background-color: #a29bfe;
+    overflow: auto;
+    /* text-align: center; */
+}
+.about{
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.about h2{
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 3px solid #fff;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.imgdiv{
+    width: 400px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.about2{
+    color: #2c3e50;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+.about2 p{
+    margin: 0 10px;
+}
+img{
+    max-width: 100%;
+    
+}
+.service{
+    width: 96%;
+    height: auto;
+    background-color: #353b48;
+    display: inline-block;
+    padding-left: 41px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+}
+.serviceT{
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    
+}
+.serviceT h2{
+    border-bottom: 2px solid #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.service1{
+    width: 31.6%;
+    height: auto;
+    border: 2px solid #7f8fa6;
+    float: left;
+    transform: translate(0px, 0px);
+    
+}
+.service1:hover{
+    border-color: #27ae60;
+    transform: translate(0px, -10px);
+    
+}
+.service1 p{
+    text-align: center;
+    margin: 0 5px;
+    margin-bottom: 5px;
+}
+.service2{
+    width: 31.6%;
+    height: auto;
+    border: 2px solid #7f8fa6;
+    float: left;
+    transform: translate(0px, 0px);
+    
+}
+.service2:hover{
+    border-color: #27ae60;
+    transform: translate(0px, -10px);
+    
+}
+.service2 p{
+    text-align: center;
+    margin: 0 5px;
+    margin-bottom: 5px;
+}
+.serviceH{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+.serviceH h2{
+    font-size: 25px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    border-bottom: 2px solid #b2bec3;
+    margin-bottom: 20px;
+    color: #b2bec3;
+    letter-spacing: 2px;
+}
+.serviceH:hover h2{
+    border-color: #27ae60;
+}
+.icon{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.icon i{
+    font-size: 50px;
+    color:  #718093;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.selectF{
+    width: 100%;
+    height: auto;
+    background-color: #bdc3c7;
+}
+.formDiv{
+    text-align: center;
+    padding: 20px 0;
+    /* margin-bottom: 20px; */
+}
+form{
+    font-size: 40px;
+}
+input{
+    font-size: 25px;
+}
+textarea{
+    margin-top: 15px;
+    font-size: 25px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #0a3d62;
+    padding: 20px 0;
+}
+.footer h3{
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+/* body{
+    background-image: url(https://i.ytimg.com/vi/4l6J5jhRgos/maxresdefault.jpg);
+    background-attachment: fixed;
+} */
